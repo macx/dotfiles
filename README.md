@@ -1,4 +1,8 @@
-## Installation
+# Dotfiles @macx
+
+Dotfiles are configuration files for varous programs, primarily recognizable by the beginning dot in the file name. The can resist per repository or system wide. This repository is my approach to sync these settings throughout different Macs.
+
+https://mjones.network/storing-dotfiles-in-a-git-repo
 
 ## Prequisites
 
@@ -45,4 +49,16 @@ $ brew install fontforge
 // Install tweeked fonts
 $ brew tap homebrew/cask-fonts
 $ brew install --cask font-hack-nerd-font
+```
+
+## Installation
+
+### Tracking files
+
+To track files in your new `~/.dotfiles` repo, just add them:
+
+```shell
+dotfiles add ~/.zshrc
+dotfiles commit -m "Add .shrc file"
+dotfiles push
 ```
