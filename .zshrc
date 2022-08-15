@@ -108,7 +108,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias p="cd ~/Projects/"
-alias config="git --git-dir=$HOME/.dotfiles --work-tree=$HOME"
+alias dots="git --git-dir=$HOME/.dotfiles --work-tree=$HOME"
 
 [ -f /opt/homebrew/etc/profile.d/autojump.sh ] && . /opt/homebrew/etc/profile.d/autojump.sh
 
