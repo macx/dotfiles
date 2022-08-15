@@ -7,7 +7,7 @@ Dotfiles are configuration files for varous programs on your computer, primarily
 Run the following script to get this dotfiles installed on your system. It will backup your existing ones.
 
 ```shell
-curl https://raw.githubusercontent.com/macx/dotfiles.git/main/scripts/config-init | bash
+curl https://raw.githubusercontent.com/macx/dotfiles/main/scripts/config-init | bash
 ```
 
 Please read the [Prequisites](./docs/prequisites.md) and follow it's instructoins to setup your maschine.
