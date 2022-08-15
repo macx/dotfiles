@@ -27,5 +27,5 @@ dots push
 To get an update:
 
 ```shell
-dots pul
+dots pull
 ```
