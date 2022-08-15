@@ -40,15 +40,15 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
   ```
 
 ```shell
-$ brew install fontforge
+brew install fontforge
 ```
 
 ### Shell
 
 ```shell
 // Install tweeked fonts
-$ brew tap homebrew/cask-fonts
-$ brew install --cask font-hack-nerd-font
+brew tap homebrew/cask-fonts
+brew install --cask font-hack-nerd-font
 ```
 
 ## Installation
@@ -58,7 +58,7 @@ $ brew install --cask font-hack-nerd-font
 To track files in your new `~/.dotfiles` repo, just add them:
 
 ```shell
-dotfiles add ~/.zshrc
-dotfiles commit -m "Add .shrc file"
-dotfiles push
+config add ~/.zshrc
+config commit -m "Add .shrc file"
+config push
 ```
